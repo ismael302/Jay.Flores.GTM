@@ -5,13 +5,13 @@
 ## run command: ./globe-civ3.sh l
 
 ## Your DNSTT Nameserver & your Domain `A` Record
-NS='b2.dns.slowdns.online'
-A='b1.dns.slowdns.online'
+NS='xp.dns1.jayflores.online'
+A='dns1.jayflores.online'
 ## Repeat dig cmd loop time (seconds) (positive interger only)
 LOOP_DELAY=5
 
 ## Add your DNS here
-declare -a HOSTS=('112.198.126.124' '112.198.126.116' '112.198.126.44')
+declare -a HOSTS=('112.198.126.124' '112.198.126.116' '112.198.126.44' '124.6.181.12' '124.6.181.4')
 
 ## Linux' dig command executable filepath
 ## Select value: "CUSTOM|C" or "DEFAULT|D"
