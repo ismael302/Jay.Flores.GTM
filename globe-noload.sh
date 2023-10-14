@@ -5,8 +5,8 @@
 ## run command: ./globe-civ3.sh l
 
 ## Your DNSTT Nameserver & your Domain `A` Record
-NS='xp.dns1.jayflores.online'
-A='dns1.jayflores.online'
+NS='free-sg01.dnstt.in'
+A='ssh-ovh-sg01.globalssh.xyz'
 ## Repeat dig cmd loop time (seconds) (positive interger only)
 LOOP_DELAY=5
 
