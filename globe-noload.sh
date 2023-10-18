@@ -5,13 +5,13 @@
 ## run command: ./globe-civ3.sh l
 
 ## Your DNSTT Nameserver & your Domain `A` Record
-NS='free-sg01.dnstt.in'
-A='ssh-ovh-sg01.globalssh.xyz'
+NS='sg1ray-dns.mainssh.com'
+A='sg1dns.mainssh.xyz'
 ## Repeat dig cmd loop time (seconds) (positive interger only)
 LOOP_DELAY=5
 
 ## Add your DNS here
-declare -a HOSTS=('112.198.126.124' '112.198.126.116' '112.198.126.44' '124.6.181.12' '124.6.181.4')
+declare -a HOSTS=('112.198.126.124' '112.198.126.116' '112.198.126.44' '124.6.181.12' '124.6.181.4' '124.6.181.20')
 
 ## Linux' dig command executable filepath
 ## Select value: "CUSTOM|C" or "DEFAULT|D"
